@@ -8,6 +8,8 @@
 	class Estados extends Model{
 		protected $table = 'estados';
 		protected $fillable = array('nome', 'sigla', 'fuso');
-		use SoftDeletes;
+
+		/* se tem use SoftDeletes, cade o 'deleted_at' column na migration ? */
+		// use SoftDeletes;
 	}
 ?>

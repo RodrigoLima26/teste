@@ -1,3 +1,4 @@
+/* ponto positivo por usar modulo */
 var estadosModulo = angular.module('estadosModulo', []);
 
 estadosModulo.controller('estadosController', function($scope, $http){

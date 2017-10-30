@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
+/* foi inteligente usar o fuso no banco de dados */
 class EstadosTableSeeder extends Seeder
 {
     /**

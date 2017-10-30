@@ -3,6 +3,9 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
+/* aqui tem algumas consideracoes, estava um nome "estranho" no arquivo .php, e precisa estar
+   nos padroes corretos pro Laravel entender a migration, se tiver class CreateEstadosTable, 
+   o arquivo php precisa chamar-se date_create_estados_table */
 class CreateEstadosTable extends Migration
 {
     /**
